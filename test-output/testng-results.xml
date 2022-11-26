@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-22T11:58:53 IST" name="Suite" finished-at="2022-11-22T11:59:23 IST" duration-ms="30569">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T11:58:53 IST" name="Test" finished-at="2022-11-22T11:59:23 IST" duration-ms="30569">
+      <class name="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:58:53 IST" name="setup" finished-at="2022-11-22T11:58:58 IST" duration-ms="4806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SwitchToPresentTest()[pri:1, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:58:58 IST" name="SwitchToPresentTest" finished-at="2022-11-22T11:58:58 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchToPresentTest -->
+        <test-method signature="mousehover()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:58:58 IST" name="mousehover" finished-at="2022-11-22T11:59:10 IST" depends-on-methods="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases.SwitchToPresentTest" duration-ms="11864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mousehover -->
+        <test-method signature="alertboxTest()[pri:3, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:10 IST" name="alertboxTest" finished-at="2022-11-22T11:59:11 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertboxTest -->
+        <test-method signature="AlertPresentTest()[pri:4, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:11 IST" name="AlertPresentTest" finished-at="2022-11-22T11:59:13 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertPresentTest -->
+        <test-method signature="AcceptAlertTest()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:13 IST" name="AcceptAlertTest" finished-at="2022-11-22T11:59:15 IST" depends-on-methods="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases.AlertPresentTest" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcceptAlertTest -->
+        <test-method signature="isAlertWithOKAndCancelTest()[pri:5, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:15 IST" name="isAlertWithOKAndCancelTest" finished-at="2022-11-22T11:59:17 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertWithOKAndCancelTest -->
+        <test-method signature="clickOnAlertWithOKAndCancelTest()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:17 IST" name="clickOnAlertWithOKAndCancelTest" finished-at="2022-11-22T11:59:17 IST" depends-on-methods="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases.isAlertWithOKAndCancelTest" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlertWithOKAndCancelTest -->
+        <test-method signature="clickConfirmBoxTest()[pri:7, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:17 IST" name="clickConfirmBoxTest" finished-at="2022-11-22T11:59:18 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickConfirmBoxTest -->
+        <test-method signature="isConfirmBoxPresentTest()[pri:8, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:18 IST" name="isConfirmBoxPresentTest" finished-at="2022-11-22T11:59:19 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConfirmBoxPresentTest -->
+        <test-method signature="AcceptPopUpBoxTest()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:19 IST" name="AcceptPopUpBoxTest" finished-at="2022-11-22T11:59:20 IST" depends-on-methods="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases.isConfirmBoxPresentTest" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcceptPopUpBoxTest -->
+        <test-method signature="isAlertWithTextPresentTest()[pri:9, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:20 IST" name="isAlertWithTextPresentTest" finished-at="2022-11-22T11:59:21 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertWithTextPresentTest -->
+        <test-method signature="clickAlertWithTextPresentTest()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:21 IST" name="clickAlertWithTextPresentTest" finished-at="2022-11-22T11:59:22 IST" depends-on-methods="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases.isAlertWithTextPresentTest" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAlertWithTextPresentTest -->
+        <test-method signature="clickOnPrompBoxTest()[pri:10, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:22 IST" name="clickOnPrompBoxTest" finished-at="2022-11-22T11:59:22 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPrompBoxTest -->
+        <test-method signature="isPrompBoxPresentTest()[pri:12, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:22 IST" name="isPrompBoxPresentTest" finished-at="2022-11-22T11:59:23 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPrompBoxPresentTest -->
+        <test-method signature="enterInPrompBoxTest()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:23 IST" name="enterInPrompBoxTest" finished-at="2022-11-22T11:59:23 IST" depends-on-methods="Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases.isPrompBoxPresentTest" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInPrompBoxTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases@26e356f0]" started-at="2022-11-22T11:59:23 IST" name="teardown" finished-at="2022-11-22T11:59:23 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Handling_Alerts_ConfirmBox_TestCases.Alerts_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
