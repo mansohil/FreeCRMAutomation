@@ -250,6 +250,12 @@ public class TestUtilities extends TestBase {
 			 action.clickAndHold(element).moveByOffset(range, 0).release().build().perform();
 		}
 		
+		public static void takeScreenshotAtEndOfTest() throws IOException {
+			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			String currentDir = System.getProperty("user.dir");
+			FileUtils.copyFile(scrFile, new File(currentDir + "\\screenshots\\" + System.currentTimeMillis() + ".png"));
+		}
+
 		
 		
 		
